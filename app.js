@@ -80,7 +80,23 @@ function nextPlayer(){
 
     document.querySelector('.dice').style.display = 'none';
 }
+document.querySelector('.btn-new').addEventListener('click', init);
 
+function init() {
+    scores = [0, 0];
+    acitvePlayer = 0;
+    roundScore = 0;
+
+    document.querySelector('.dice').style.display = 'none';
+
+    document.getElementById('score-0').textContent = '0';
+    document.getElementById('score-1').textContent = '0';
+    document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-1').textContent = '0';
+
+    document.querySelector('#name-0').textContent = 'Player 1';
+    document.querySelector('#name-1').textContent = 'Player 2';
+}
 function playerWon () {
 
 }
