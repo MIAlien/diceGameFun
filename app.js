@@ -88,8 +88,4 @@ function playerWon () {
 
 }
 
-//document.querySelector('#current-' + activePlayer).textContent = dice;
-//document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
-
-//var x = document.querySelector('#score-0').textContent;
 
